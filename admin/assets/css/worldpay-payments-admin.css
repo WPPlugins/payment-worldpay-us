@@ -1,0 +1,358 @@
+
+.subscriptions-notActive h2 {
+	color: red;
+	font-weight: 600;
+	font-size: 20px;
+}
+.worldpay-custom-form {
+	margin-top: 20px;
+}
+.woo-order-settings {
+	margin-top: 30px;
+}
+.template-code-header {
+	display: inline-block;
+	margin:0px;
+	padding: 0px;
+}
+.donation-form-code-input {
+	min-width: 300px;
+}
+.donaton-form-code h4 {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+.donaton-form-style h4 {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+.donation-order-description h4 {
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+.donation-fieldValidations h2 {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+.donation-validationFields {
+	margin-top: 10px;
+}
+.worldpay-payments-form {
+	font-size: 0px;
+}
+.subscription-order-prefix h4 {
+	display: inline-block;
+}
+.worldpay-paymentmethods {
+	vertical-align: top;
+}
+.paypal-logo-blue {
+	color: white;
+    background: linear-gradient(-180deg, #009cde 0%,#0083de 100%);
+    padding: 10px 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+}
+.license-activation-url span a {
+	font-size: 18px;
+	color: #fff;
+	//text-decoration: none;
+}
+.next-license-activation span {
+	font-size: 14px;
+	color: #fff;
+}
+.woopayments-explanation {
+	width: 70%;
+}
+@media(max-width: 640px){
+ .woopayments-explanation {
+	width: 90%;
+}
+}
+.account-title h1 {
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+.worldpay-payments-div-table h2 {
+	font-size: 20px;
+	font-weight: 600;
+	display: inline-block;
+}
+.woopayments-enabled h2,
+.worldpay-ach-enabled h2 {
+	display: inline-block;
+}
+.woopayments-paypal-enabled h2 {
+	display: inline-block;
+}
+.woopayments-setting-paypal {
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+}
+.woopayments-setting-paypal-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+@media(max-width: 560px) {
+ .woopayments-setting-paypal {
+ 	width: 100%;
+ }
+}
+.paypal-logo {
+	display: inline-block;
+	width: 48%;
+}
+.checkout-form-select {
+	margin-bottom: 10px;
+}
+.worldpay-payment-form {
+	background: transparent;
+	max-width: 500px;
+}
+.accepted-paymentmethods {
+	max-width: 500px;
+}
+.payment-method-image {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.payment-method-image img {
+    width: 30px;
+    vertical-align: bottom;
+    padding: 0px;
+}
+.worldpayus-log-entry {
+	font-weight: 700;
+	font-size: 16px;
+}
+.worldpay-log-entry, .worldpay-log-array {
+	margin-top: 20px;
+	max-width: 1024px;
+}
+.worldpay-subscription-setting,
+.worldpay-subscription-config {
+	display: inline-block;
+	vertical-align: top;
+}
+.worldpay-subscription-config {
+	margin-right: 50px;
+}
+.api-settings-button {
+	font-weight: 600;
+	font-size: 22px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.paypal-environment-td {
+	background-color: #fff;
+	height: 40px;
+	border: 1px solid #d2d2d2;
+}
+.worldpayus-subscriptions-config {
+	margin-top: 20px;
+}
+.worldpayus-subscriptions-config div {
+	margin-top: 5px;
+}
+.worldpayus-subscriptions-config {
+	//border: 1px solid #5D7B9D;
+}
+
+.worldpay-subscription-config-div {
+	font-size: 14px;
+	background-color: #5D7B9D;
+	width: 80%;
+}
+.worldpay-subscription-config-div span {
+	color: #fff;
+	font-weight: 600;
+	padding: 5px;
+}
+ul.product_data_tabs li.display-none {
+	display: none !important;
+}
+.wp_subscriptions_options {
+	display: none;
+}
+.worldpay-tooltip {
+    position: absolute;
+    right: 10px;
+    transform: translatey(-50%);
+    top: 50%;
+    z-index: 999;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translatey(-50%);
+}
+.worldpay-tooltip img {
+	width: 18px;
+	height: 18px;
+	padding-right: 10px;
+}
+.tooltip-description {
+ 	//display: none;
+ 	visibility: hidden;
+ 	opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 200px;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    padding: 10px;
+    z-index: 9999;
+    border-radius: 5px;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.tooltip-description a {
+	color: #fff;
+}
+.worldpay-tooltip:hover .tooltip-description{
+	display: block;
+	visibility: visible;
+	opacity: 1;
+}
+.worldpay-table-row {
+	border-top: 1px solid #E8E8E8;
+	border-bottom: 1px solid #E8E8E8;
+}
+.worldpay-table-row th {
+	padding: 20px 5px;
+	text-align: left;
+	width: 40%;
+	position: relative;
+}
+.worldpay-settings-td {
+	width: 60%;
+}
+.worldpay-table-row th label {
+	font-size: 16px;
+}
+.payment-method-img {
+	height: 20px;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.worldpay-settings-td input[type="image"]{
+	vertical-align: top;
+}
+.worldpay-settings-td .worldpay-settings-div {
+	display: inline-block;
+	padding-right: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.worldpay-settings-div .accountActive{
+	color: #72C791;
+	font-weight: 600;
+	font-size: 18px;
+}
+.worldpay-settings-td .accountInactive{
+	color: #ED574A;
+	font-weight: 600;
+	font-size: 18px;
+}
+.worldpay-woocommerce-settings {
+	border-collapse:collapse;
+	width: 100%;
+}
+.subscription-notes-input {
+	width: 300px;
+	height: 40px;
+}
+.worldpay-title-description {
+	max-width: 800px;
+	margin-bottom: 15px;
+	line-height: 180%;
+}
+.worldpay-public-key, .paymentplugins-public-key ,
+.paymentplugins-private-key{
+	width: 300px;
+}
+.worldpay-checkmark {
+	width: 45px;
+    vertical-align: bottom;
+}
+.worldpay-logo-header {
+	width: 200px;
+}
+.worldpay-logo-inner {
+	display: inline-block;
+}
+.worldpay-logo-inner a {
+	margin: 0px;
+}
+.worldpay-header ul {
+	margin-left: 30px;
+    margin-top: 5px;
+}
+.worldpay-deletelog-form {
+	display: inline-block
+}
+.checkout-form-settings {
+	margin-top: 20px;
+}
+.worldpay-header {
+	width: 100%;
+    background-color: #3e3c42;
+    margin-left: -10px;
+    padding: 10px;
+}
+.worldpay-header ul {
+	display: inline-block;
+}
+.worldpay-header ul li {
+	display: inline-block;
+	margin-right: 20px;
+	border-right: 1px solid #fff;
+	padding-right: 20px;
+}
+.worldpay-header ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.worldpay-payments-save {
+	background-color: #f11e15;
+	color: #fff;
+	border: none;
+	padding: 8px 12px;
+	cursor: pointer;
+}
+.worldpay-deletelog-form {
+	margin-top: 20px;
+}
+.worldpay-admin-options ul li {
+	font-size: 14px;
+	color: #000;
+}
+.worldpay-explanation-container{
+	line-height: 170%;
+	display: none;
+}
+.worldpay-explanation-container.display{
+	display: block;
+}
+.worldpay-explanation-container img{
+	max-width: 800px;
+}
+.worldpay-explanation-container .setting-explanation{
+	margin-top: 10px;
+}
+.div--tutorialHeader ul li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.div--tutorialHeader ul li a{
+	display: inline-block;
+}
+.worldpayus-info.important{
+	font-size: 18px;
+}

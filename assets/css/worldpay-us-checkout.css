@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+.accepted-payment-forms {
+	margin-bottom: 10px;
+}
+.payment-method-image {
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.payment-method-image img {
+	width: 30px;
+	vertical-align: bottom;
+	padding: 0px;
+}
+.paymentpluginsEnvironment {
+	margin-bottom: 10px;
+}
+.paymentpluginsEnvironment span {
+	color: #CE5F5E;
+	font-size: 14px;
+	font-weight: 600;
+}
+.div--paymentMethods{
+	margin: 5px 0px;
+}
+.div--paymentMethods span.paymentMethod{
+	max-width: 30px;
+	display: inline-block;
+	padding: 0px;
+}
+.div--paymentMethods span.paymentMethod img{
+	width: 100%;
+	padding: 0px;
+}
